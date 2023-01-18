@@ -6,7 +6,19 @@ using System.Threading.Tasks;
 
 namespace FactoryPattern
 {
-    internal class Motorcycle
+    public class Motorcycle : IVehicle
     {
+        public Motorcycle()
+        {
+            Console.WriteLine("Building a new motorcycle!\n");
+        }
+
+        public void Drive()
+        {
+            Console.WriteLine("Your motorcycle is built and ready to drive!\n");
+
+        }
+        
     }
 }
+
