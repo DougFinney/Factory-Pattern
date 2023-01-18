@@ -15,9 +15,11 @@ namespace FactoryPattern
             { 
                 case "4":
                 case "four":
+                case "Four":
                     return new Car();
                 case "2":
                 case "two":
+                case "Two":
                     return new Motorcycle();
                 default:
                     return new Car();

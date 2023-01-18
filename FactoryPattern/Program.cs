@@ -7,10 +7,11 @@
             Console.WriteLine("How Many Wheels would you like?");
             var numberOfWheels = Console.ReadLine();
 
+           
             IVehicle vehicle = VehicleFactory.GetVehicle(numberOfWheels);
 
 
-            Console.WriteLine();
+            
             vehicle.Drive();
            
         }
